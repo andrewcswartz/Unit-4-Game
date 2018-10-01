@@ -1,0 +1,80 @@
+
+
+
+.banner{
+    width: auto 50%;
+    border: solid 7px #040108;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Arvo', serif;
+    font-size: 45px;
+    margin-bottom: 1rem;
+    background: #470d92;
+}
+
+#instructions{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    text-align: left;
+    border: solid 4px #470d92;
+    font: #494b4b;
+    background: rgba(245, 245, 245, 0.966);
+    margin-bottom: 1rem;
+}
+
+.scoreCard{
+    border: solid 4px #470d92;
+    font: #494b4b;
+    font-display: white;
+    font-family: 'Arvo', serif;
+    color: #470d92;
+    padding: 1rem 2rem 1rem 1rem;
+    font-size:  30px;
+    text-align: left;
+    background:  rgba(245, 245, 245, 0.966);
+}
+
+#randomCompGen{
+    border: solid 4px #470d92;
+    font: #494b4b;
+    font-family: 'Arvo', serif;
+    font-size:  30px;
+    text-align: left;
+    padding: 1rem 2rem 1rem 1rem;
+    margin-bottom: 1rem;
+    background:  rgba(245, 245, 245, 0.966);
+}
+
+
+#crystals{
+    border: solid 2px #470d92;
+    background-color:  rgba(245, 245, 245, 0.966);
+    padding: 10;
+}
+
+
+#scoreBox{
+    border: solid 4px #470d92;
+    font: white;
+    font-family: 'Arvo', serif;
+    color: white;
+    font-size:  40px;
+    background:  rgba(78, 75, 75, 0.966);
+    padding: 3rem;
+}
+
+.footer{
+    border-top: solid 4px #470d92;
+    font: #494b4b;
+    font-family: 'Arvo', serif;
+    font-size:  12px;
+    background: white;
+    overflow: auto;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
