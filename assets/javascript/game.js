@@ -12,10 +12,10 @@ $("#randomCompGen").html('Random Number: ' + compNumber);
 
 //this will generate a random value for the crystals
 //user will not see the value
-var cryst1 = Math.floor(Math.random() * 7) + 1;
-var cryst2 = Math.floor(Math.random() * 7) + 1;
-var cryst3 = Math.floor(Math.random() * 7) + 1;
-var cryst4 = Math.floor(Math.random() * 7) + 1;
+var cryst1 = Math.floor(Math.random() * 50) + 1;
+var cryst2 = Math.floor(Math.random() * 20) + 1;
+var cryst3 = Math.floor(Math.random() * 10) + 1;
+var cryst4 = Math.floor(Math.random() * 20) + 1;
 
 //creates a reset function when the game round has ended
 function reset(){
@@ -23,10 +23,10 @@ function reset(){
     $('#currentScore').html(userScore);
     compNumber = Math.floor(Math.random() * (100+ 1)) + 10;
     $("#randomCompGen").html('Random Number: ' + compNumber);
-    cryst1 = Math.floor(Math.random() * 15) + 1;
-    cryst2 = Math.floor(Math.random() * 15) + 1;
-    cryst3 = Math.floor(Math.random() * 15) + 1;
-    cryst4 = Math.floor(Math.random() * 15) + 1;
+    cryst1 = Math.floor(Math.random() * 50) + 1;
+    cryst2 = Math.floor(Math.random() * 20) + 1;
+    cryst3 = Math.floor(Math.random() * 10) + 1;
+    cryst4 = Math.floor(Math.random() * 20) + 1;
 };
 
 //conditional statement to check whether score is equal to or over the set compNumber
